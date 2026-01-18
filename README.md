@@ -1,5 +1,7 @@
 # GSM Fusion Reactor - Validated Design
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18294388.svg)](https://doi.org/10.5281/zenodo.18294388)
+
 ![Validation](https://img.shields.io/badge/Validation-22%2F22%20Pass-brightgreen)
 ![Physics](https://img.shields.io/badge/Physics-7%2F7%20Pass-blue)
 ![MHD](https://img.shields.io/badge/MHD-7%2F7%20Stable-blue)
