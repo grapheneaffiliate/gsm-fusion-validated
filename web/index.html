@@ -77,6 +77,51 @@
             </div>
         </div>
         
+        <h2>📁 Repository Structure</h2>
+        <table>
+            <tr><th>File</th><th>Description</th></tr>
+            <tr>
+                <td><code>README.md</code></td>
+                <td>Project overview, validation summary, and quick start guide</td>
+            </tr>
+            <tr>
+                <td><code>docs/GSM_FUSION_COMPLETE.md</code></td>
+                <td>Complete design document with all parameters, equations, and economic analysis</td>
+            </tr>
+            <tr>
+                <td><code>validation/fusion_validation.py</code></td>
+                <td>Physics validation script — tests Lawson criterion, reactivity, power balance (7/7 PASS)</td>
+            </tr>
+            <tr>
+                <td><code>validation/mhd_simulation.py</code></td>
+                <td>MHD stability simulation — analyzes ballooning, kink, tearing, NTM, ELM modes (7/7 STABLE)</td>
+            </tr>
+            <tr>
+                <td><code>validation/engineering_simulation.py</code></td>
+                <td>Engineering validation — magnet stress, heat flux, neutron damage, tritium breeding (8/8 PASS)</td>
+            </tr>
+            <tr>
+                <td><code>web/index.html</code></td>
+                <td>This styled HTML report for easy viewing of results</td>
+            </tr>
+            <tr>
+                <td><code>overleaf_project/main.tex</code></td>
+                <td>LaTeX source for professional PDF generation via Overleaf</td>
+            </tr>
+        </table>
+        
+        <div class="highlight-box">
+            <h3>🚀 Quick Start</h3>
+            <pre><code># Clone the repository
+git clone https://github.com/grapheneaffiliate/gsm-fusion-validated.git
+cd gsm-fusion-validated
+
+# Run all validations
+python validation/fusion_validation.py      # Physics (7/7)
+python validation/mhd_simulation.py         # MHD (7/7)
+python validation/engineering_simulation.py # Engineering (8/8)</code></pre>
+        </div>
+        
         <div class="summary-box">
             <h2 style="color: var(--gold); margin-top: 0;">GSM Fusion Reactor - Validated Design</h2>
             <pre><code>╔═══════════════════════════════════════════════════════════════╗
